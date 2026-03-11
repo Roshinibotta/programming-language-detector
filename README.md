@@ -199,6 +199,3 @@ Gayatri Vidya Parishad College of Engineering for Women
 
 ---
 
-# ⭐ If you like this project
-
-Give it a **star ⭐ on GitHub**.
