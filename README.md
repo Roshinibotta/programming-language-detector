@@ -1,4 +1,4 @@
-# 🚀 Programming Language Detector
+#  Programming Language Detector
 
 A web application that detects the **programming language of a given code snippet** and provides additional analysis such as code explanation, syntax checking, and code statistics.
 
@@ -8,16 +8,16 @@ This project combines **Machine Learning and Web Development** to create an inte
 
 # 📌 Features
 
-🔍 **Programming Language Detection**
+-->**Programming Language Detection**
 Detects the programming language from a pasted code snippet.
 
-💡 **Code Explanation**
+-->**Code Explanation**
 Provides a simple explanation of what the code is doing.
 
-🐞 **Syntax Error Detection**
+-->**Syntax Error Detection**
 Checks for possible syntax errors in the code.
 
-📊 **Code Statistics**
+-->**Code Statistics**
 Shows useful information about the code such as:
 
 * Number of lines
@@ -26,7 +26,7 @@ Shows useful information about the code such as:
 * Loops
 * Functions
 
-🎨 **Interactive User Interface**
+**Interactive User Interface**
 A clean and modern interface built using HTML and CSS.
 
 ---
