@@ -1,4 +1,4 @@
-# 🚀 Programming Language Detector
+# Programming Language Detector
 
 A web application that detects the **programming language of a given code snippet** and provides additional analysis such as **code explanation, syntax checking, and code statistics**.
 
@@ -6,7 +6,7 @@ This project combines **Machine Learning and Web Development** to create an inte
 
 ---
 
-# 📌 Features
+# Features
 
 ### 🔍 Programming Language Detection
 
@@ -108,7 +108,7 @@ Training steps include:
 Notebook included in this repository:
 
 ```
-language_detector_training.ipynb
+language_detector.ipynb
 ```
 
 ---
