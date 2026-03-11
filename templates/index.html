@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Programming Language Detector</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<!-- Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Programming Language Detector</h1>
+
+<p class="subtitle">
+Paste your code snippet below and detect the programming language instantly.
+You can also explain the code, check syntax errors, and analyze code statistics.
+</p>
+
+<form method="POST">
+
+    <label>Code Snippet</label>
+
+<div class="editor">
+
+<div class="line-numbers" id="lineNumbers">1</div>
+
+<textarea id="codeInput" name="code" placeholder="Paste your code here..." oninput="updateLines()">{{ code }}</textarea>
+
+</div>
+
+<div class="buttons">
+
+<button name="action" value="detect">
+<i class="fa-solid fa-magnifying-glass"></i>
+Detect Language
+</button>
+
+<button name="action" value="explain">
+<i class="fa-solid fa-lightbulb"></i>
+Code Explanation
+</button>
+
+<button name="action" value="syntax">
+<i class="fa-solid fa-bug"></i>
+Syntax Check
+</button>
+
+<button name="action" value="stats">
+<i class="fa-solid fa-chart-simple"></i>
+Code Statistics
+</button>
+
+<button name="action" value="clear">
+<i class="fa-solid fa-trash"></i>
+Clear
+</button>
+
+</div>
+
+</form>
+
+<!-- Warning / Success Messages -->
+
+{% if message %}
+<div class="alert {{ status }}">
+{{ message }}
+</div>
+{% endif %}
+
+<!-- Results -->
+
+<div class="result">
+
+{% if prediction %}
+<div class="card-result">
+
+<h3>Detected Language</h3>
+
+<p class="badge">{{ prediction }}</p>
+
+</div>
+{% endif %}
+
+
+{% if explanation %}
+<div class="card-result">
+
+<h3>Code Explanation</h3>
+
+<p>{{ explanation }}</p>
+
+</div>
+{% endif %}
+
+
+{% if error %}
+<div class="card-result">
+
+<h3>Syntax Check Result</h3>
+
+<p>{{ error }}</p>
+
+</div>
+{% endif %}
+
+
+{% if stats %}
+<div class="card-result">
+
+<h3>Code Statistics</h3>
+
+<ul>
+
+<li>Lines: {{ stats.lines }}</li>
+<li>Characters: {{ stats.characters }}</li>
+<li>Words: {{ stats.words }}</li>
+<li>Loops: {{ stats.loops }}</li>
+<li>Functions: {{ stats.functions }}</li>
+
+</ul>
+
+</div>
+{% endif %}
+
+</div>
+
+</div>
+
+</body>
+<script>
+
+function updateLines(){
+
+let textarea = document.getElementById("codeInput");
+let lines = textarea.value.split("\n").length;
+
+let numbers = "";
+
+for(let i=1;i<=lines;i++){
+numbers += i + "<br>";
+}
+
+document.getElementById("lineNumbers").innerHTML = numbers;
+
+}
+
+</script>
+</html>

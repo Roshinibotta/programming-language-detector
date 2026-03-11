@@ -1,0 +1,180 @@
+code,language
+"print('Hello World')",Python
+"x = 10",Python
+"for i in range(5): print(i)",Python
+"def add(a,b): return a+b",Python
+"import math",Python
+"numbers=[1,2,3]",Python
+"if x>5: print(x)",Python
+"while True: break",Python
+
+"#include <stdio.h>",C
+"printf('Hello');",C
+"int a = 10;",C
+"scanf('%d',&a);",C
+"for(int i=0;i<5;i++)",C
+"while(1){}",C
+"if(a>5){}",C
+"return 0;",C
+
+"#include <iostream>",C++
+"using namespace std;",C++
+"cout << 'Hello';",C++
+"cin >> x;",C++
+"vector<int> v;",C++
+"string name;",C++
+"class Student{}",C++
+"auto x = 10;",C++
+
+"public class Hello{}",Java
+"System.out.println('Hello');",Java
+"int a = 5;",Java
+"Scanner sc = new Scanner(System.in);",Java
+"for(int i=0;i<5;i++)",Java
+"while(true){}",Java
+"class Student{}",Java
+"String name;",Java
+
+"console.log('Hello')",JavaScript
+"let x = 10;",JavaScript
+"var name = 'John';",JavaScript
+"const PI = 3.14;",JavaScript
+"function add(a,b){}",JavaScript
+"for(let i=0;i<5;i++)",JavaScript
+"alert('Hello')",JavaScript
+"fetch('url')",JavaScript
+
+"echo 'Hello';",PHP
+"$a = 10;",PHP
+"function add($a,$b){}",PHP
+"if($a>5){}",PHP
+"for($i=0;$i<5;$i++)",PHP
+"while(true){}",PHP
+"print 'Hello';",PHP
+"include 'file.php';",PHP
+
+"puts 'Hello'",Ruby
+"x = 10",Ruby
+"def add(a,b)",Ruby
+"5.times do",Ruby
+"if x>5",Ruby
+"while true",Ruby
+"class Person",Ruby
+"require 'json'",Ruby
+
+"fmt.Println('Hello')",Go
+"var x int = 10",Go
+"func main(){}",Go
+"for i:=0;i<5;i++",Go
+"if x>5 {}",Go
+"package main",Go
+"import 'fmt'",Go
+"type Person struct{}",Go
+
+"Console.WriteLine('Hello');",C#
+"int x = 10;",C#
+"for(int i=0;i<5;i++)",C#
+"if(x>5){}",C#
+"class Program{}",C#
+"static void Main()",C#
+"using System;",C#
+"string name;",C#
+
+"fun main(){ println('Hello') }",Kotlin
+"var x = 10",Kotlin
+"val name = 'John'",Kotlin
+"for(i in 1..5)",Kotlin
+"if(x>5)",Kotlin
+"class Person{}",Kotlin
+"println('Hello')",Kotlin
+"listOf(1,2,3)",Kotlin
+
+"print('Hello')",Swift
+"var x = 10",Swift
+"let name = 'John'",Swift
+"for i in 1...5 {}",Swift
+"if x > 5 {}",Swift
+"class Person {}",Swift
+"import Foundation",Swift
+"while true {}",Swift
+
+"fn main(){}",Rust
+"println!('Hello');",Rust
+"let x = 10;",Rust
+"for i in 0..5 {}",Rust
+"if x > 5 {}",Rust
+"struct Person {}",Rust
+"use std::io;",Rust
+"loop {}",Rust
+
+"print('Hello')",R
+"x <- 10",R
+"for(i in 1:5)",R
+"if(x>5)",R
+"while(TRUE)",R
+"data <- c(1,2,3)",R
+"mean(data)",R
+"sum(data)",R
+
+"disp('Hello')",MATLAB
+"x = 10",MATLAB
+"for i=1:5",MATLAB
+"if x>5",MATLAB
+"while true",MATLAB
+"plot(x,y)",MATLAB
+"function y=f(x)",MATLAB
+"end",MATLAB
+
+"SELECT * FROM users;",SQL
+"INSERT INTO users VALUES(1,'John');",SQL
+"UPDATE users SET name='A';",SQL
+"DELETE FROM users;",SQL
+"CREATE TABLE users(id INT);",SQL
+"DROP TABLE users;",SQL
+"SELECT name FROM users;",SQL
+"WHERE id=1",SQL
+
+"let x:number = 10;",TypeScript
+"function add(a:number,b:number){}",TypeScript
+"interface User{}",TypeScript
+"console.log(x)",TypeScript
+"for(let i=0;i<5;i++)",TypeScript
+"if(x>5){}",TypeScript
+"export class Test{}",TypeScript
+"import {A} from './a'",TypeScript
+
+"void main(){}",Dart
+"print('Hello')",Dart
+"var x = 10;",Dart
+"for(var i=0;i<5;i++)",Dart
+"if(x>5)",Dart
+"class Person{}",Dart
+"import 'dart:io';",Dart
+"List<int> nums=[1,2,3];",Dart
+
+"object Hello extends App{}",Scala
+"println('Hello')",Scala
+"val x = 10",Scala
+"for(i <- 1 to 5)",Scala
+"if(x>5)",Scala
+"class Person{}",Scala
+"import scala.collection",Scala
+"def add(a:Int,b:Int)",Scala
+
+"echo Hello",Bash
+"ls -la",Bash
+"cd /home",Bash
+"for i in *",Bash
+"if [ $x -gt 5 ]",Bash
+"while true",Bash
+"grep 'hello' file",Bash
+"cat file.txt",Bash
+
+"Write-Host 'Hello'",PowerShell
+"$x = 10",PowerShell
+"foreach($i in 1..5)",PowerShell
+"if($x -gt 5)",PowerShell
+"while($true)",PowerShell
+"Get-Process",PowerShell
+"Set-Location C:\\",PowerShell
+"Get-ChildItem",PowerShell
